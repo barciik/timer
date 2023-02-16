@@ -9,12 +9,31 @@ body {
     width: 100%;
     height: 100vh;
     background-color: rgb(245, 217, 217);
+    font-family: 'Roboto Mono', monospace;
 }
 
-.timer {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -70%);
-    font-size: 7vh;
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.days {
+    font-size: 9.5vh;
+}
+
+.hours {
+    font-size: 5vh;
+}
+
+.minutes {
+    font-size: 4vh;
+}
+
+.seconds {
+    font-size: 3vh;
 }
